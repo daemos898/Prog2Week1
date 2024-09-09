@@ -1,4 +1,4 @@
-public class TestClass {
+public class TestClass extends BankAccount {
 	
   public static void main(String[] args) 
   {
@@ -25,6 +25,6 @@ public class TestClass {
     
     //Same information as the first account summary but shows the new balance in the banking account
     System.out.println("\nDisplaying account information..."); 
-    checkAcc.displayAccount();
+    checkAcc.accountSummary();
   }
 }
